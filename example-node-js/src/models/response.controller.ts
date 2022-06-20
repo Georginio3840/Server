@@ -1,6 +1,6 @@
 export interface IResponse{
     message: string;
     status: number;
-    content: null| Object;
+    content: null| any;
  
  }
